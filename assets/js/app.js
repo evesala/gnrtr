@@ -10,10 +10,10 @@ $(document).ready(function () {
         document.getElementById('btn-generate').disabled = false;
         makeRequest(token)
     } else {
-        insertIntoResult("We need a token to generate results")
+        insertIntoResult("Click first on a generator")
     }
 
-    
+
 
     $(btnGenerate).click(function() {
         makeRequest(token);
@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     $(btnCreateLink).click(function() {
         navigator.clipboard.writeText(window.location.href)
-        
+
     })
 
     $('#inputButton').click(function() {
@@ -45,7 +45,7 @@ $(document).ready(function () {
         }
     });
 
-    
+
 
 })
 
