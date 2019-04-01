@@ -1,6 +1,8 @@
 # Exec
 Execute generators without showing the source 
 
+Based on <A href="https://gnrtr.fun/">GNRTR</A> by <A href="https://github.com/klaumann/">klaumann</A>.
+
 # Licensing
 
 Using Creative-tim BLK UI Kit  
