@@ -104,9 +104,9 @@ body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #030303;
+  color: #black;
   text-align: left;
-  background-color: #f2f2f2;
+  background-color: #e9ecef;
 }
 
 [tabindex="-1"]:focus {
@@ -420,7 +420,7 @@ h6,
   font-family: inherit;
   font-weight: 400;
   line-height: 1.2;
-  color: #32325d;
+  color: black;
 }
 
 h1,
