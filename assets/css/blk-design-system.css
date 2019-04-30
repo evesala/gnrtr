@@ -14336,7 +14336,7 @@ textarea {
 .card h5,
 .card h6,
 .card p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(5, 5, 5, 0.8);
 }
 
 h1,
@@ -15625,7 +15625,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 .bd-docs table .h4,
 .bd-docs table .h5,
 .bd-docs table .h6 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(5, 5, 5, 0.8);
 }
 
 .bd-docs .bd-example .datepicker thead th,
