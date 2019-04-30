@@ -64,7 +64,7 @@ function makeRequest(token) {
     $.ajax({url: url, success: function(response){
         output = response.htmlContent;
         if (response.result === null) {
-            insertIntoResult("Invaild Token Supplied")
+            insertIntoResult("Invalid Token Supplied")
         } else {
             insertIntoResult(output);
         }
