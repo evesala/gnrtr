@@ -205,7 +205,7 @@ sup {
 }
 
 a {
-  color: #e14eca;
+  color: blue;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -14501,7 +14501,7 @@ p.description {
 
 ul li,
 ol li {
-  color: #ffffff;
+  color: black;
 }
 
 pre {
