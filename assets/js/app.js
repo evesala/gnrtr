@@ -3,8 +3,13 @@
 $(document).ready(function () {
     var btnGenerate = '#btn-generate';
     var btnCreateLink = '#btn-permalink';
-    var token = getUrlParameter('token');
     var btnTokenPopover = '#token-input-popover';
+
+    if (token == undefined) {
+      var token = getUrlParameter('token');
+    }
+
+    {
     if (token !== undefined) {
         document.getElementById('btn-permalink').disabled = false;
         document.getElementById('btn-generate').disabled = false;
